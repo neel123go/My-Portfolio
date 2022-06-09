@@ -12,6 +12,9 @@ const Projects = () => {
                     <div className="card-body">
                         <h2 className="card-title">MR. Computer Tools</h2>
                         <p>This a Computer Tools Manufacturer website that sales different type of computer tools. In this website user can buy tools & pay his/her orders by debit card. An admin user can add products, manage products, manage all user orders and you can also make admin any normal user.</p>
+                        <p>Technology Used: Html, CSS, JavaScript, Tailwind CSS, React Router,
+                            DaisyUI, Swiper, Firebase, React Firebase Hook, React Hook Form, React
+                            Hot Toast, NodeJs, ExpressJs, MongoDB</p>
                         <div className="card-actions justify-end mt-5">
                             <a target='_blank' href="https://mr-computer-tools.web.app/" className="badge badge-secondary py-4 px-3">Live View</a>
                             <a target='_blank' href="https://github.com/neel123go/mr-computer-tools" className="badge badge-secondary py-4 px-3">Client Code</a>
@@ -24,6 +27,9 @@ const Projects = () => {
                     <div className="card-body">
                         <h2 className="card-title">Sales Tracking</h2>
                         <p>This website is a warehouse management website. Through this website, users can stock, restock, add, delete as well as delivered user items. Moreover, The users can also purchase services according to their demands.</p>
+                        <p>Technology Used: Html, CSS, JavaScript, Bootstrap, React Bootstrap, React
+                            Router, Firebase, React Firebase Hook, React Hot Toast, NodeJs, ExpressJs,
+                            MongoDB.</p>
                         <div className="card-actions justify-end mt-5">
                             <a target='_blank' href="https://sales-tracking-2ffd2.web.app/" className="badge badge-secondary py-4 px-3">Live View</a>
                             <a target='_blank' href="https://github.com/neel123go/sales-traking-client" className="badge badge-secondary py-4 px-3">Client Code</a>
@@ -36,6 +42,8 @@ const Projects = () => {
                     <div className="card-body">
                         <h2 className="card-title">Paul's Capture</h2>
                         <p>This is a photography website which provides different services. In this website user can create an account with with gmail and password. User can also create your account with your google & github account.</p>
+                        <p>Technology Used: Html, CSS, JavaScript, Bootstrap, React Bootstrap, React
+                            Router, Firebase, React Firebase Hook, React Hot Toast.</p>
                         <div className="card-actions justify-end mt-5">
                             <a target='_blank' href="https://paul-s-capture.web.app/" className="badge badge-secondary py-4 px-3">Live View</a>
                             <a target='_blank' href="https://github.com/neel123go/pauls-capture-assignment" className="badge badge-secondary py-4 px-3">Code</a>
