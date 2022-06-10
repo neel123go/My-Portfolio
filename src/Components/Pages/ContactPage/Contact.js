@@ -11,8 +11,8 @@ function ContactForm() {
     }
     return (
         <div className='px-5 md:px-20 lg:32' id='contactMe'>
-            <h2 className='text-4xl mb-10'>Contact Me -</h2>
-            <div className='md:flex justify-center items-center bg-white p-10 rounded-3xl'>
+            <h2 className='text-4xl my-10'>Contact Me -</h2>
+            <div className='md:flex justify-center items-center bg-white p-6 md:p-10 rounded-3xl'>
                 <div className='w-full md:w-1/2'>
                     <form onSubmit={handleSubmit}>
                         {element}
