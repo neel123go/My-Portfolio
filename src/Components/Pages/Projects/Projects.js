@@ -23,26 +23,18 @@ const Projects = () => {
     return (
         <div className='px-5 py-10 md:px-20 lg:32 mb-20 p-10' id="projects">
             <h2 className='text-4xl'>My Projects -</h2>
-            <div className='mt-10 p-3 md:py-20 bg-white rounded-3xl'>
+            <div className='mt-10 p-3 md:py-20 bg-white rounded-3xl pr-10'>
                 <Swiper
-                    effect={"coverflow"}
-                    grabCursor={true}
-                    centeredSlides={true}
+                    slidesPerView={2}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    className="mySwiper"
                     autoplay={{
-                        delay: 3000,
+                        delay: 5000,
                         disableOnInteraction: false,
                     }}
-                    slidesPerView={"auto"}
-                    coverflowEffect={{
-                        rotate: 50,
-                        stretch: 0,
-                        depth: 100,
-                        modifier: 1,
-                        slideShadows: true,
-                    }}
-                    pagination={true}
                     modules={[Autoplay, Pagination]}
-                    className="mySwiper"
                 >
                     {
                         projects.map(project =>

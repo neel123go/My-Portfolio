@@ -12,7 +12,7 @@ const Home = () => {
                             <p className='text-xl'>Hello, There I'm</p>
                             <h1 className="text-5xl font-bold">Ayoun Paul Neel</h1>
                             <p className="py-6">A Junior Web Developer who care about writing clean code and genuinely love to learn more about web development.</p>
-                            <a href='https://drive.google.com/file/d/1fSL_j6Llxo2xq-ZPXSoaDT-e00RGlOOn/view?usp=sharing' target="_blank" className='btn-secondary px-6 py-2 rounded-lg text-xl'>Download Resume</a>
+                            <a href='https://drive.google.com/file/d/1LQu5FCfxyvuphXGEZZ4DracOBovTyHIk/view' target="_blank" className='btn-secondary px-6 py-2 rounded-lg text-xl'>Download Resume</a>
                         </div>
                     </Bounce>
                 </div>

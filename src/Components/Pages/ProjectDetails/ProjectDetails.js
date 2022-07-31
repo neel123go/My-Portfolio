@@ -8,9 +8,11 @@ import "swiper/css";
 import "./ProjectDetails.module.css";
 
 import { Autoplay, Navigation, Pagination } from "swiper";
+import Loading from '../Shared/Loading/Loading';
 
 const ProjectDetails = () => {
     const [project, setProject] = useState({});
+    const [isLoading, setLoading] = useState(true);
     const { id } = useParams();
 
     useEffect(() => {
@@ -18,8 +20,13 @@ const ProjectDetails = () => {
             .then(res => res.json())
             .then(data => {
                 setProject(data);
+                setLoading(false);
             });
     }, [id]);
+
+    if (isLoading) {
+        return <Loading></Loading>
+    }
 
     return (
         <div className="card my-10 mx-4 md:mx-20 border-2 border-gray-300">
