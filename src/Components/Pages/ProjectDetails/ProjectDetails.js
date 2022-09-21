@@ -24,9 +24,9 @@ const ProjectDetails = () => {
             });
     }, [id]);
 
-    if (isLoading) {
-        return <Loading></Loading>
-    }
+    // if (isLoading) {
+    //     return <Loading></Loading>
+    // }
 
     return (
         <div className="card my-10 mx-4 md:mx-20 border-2 border-gray-300">
@@ -64,8 +64,6 @@ const ProjectDetails = () => {
                     <ol className='text-md'>- {project[0]?.points[0]}</ol>
                     <ol className='text-md'>- {project[0]?.points[1]}</ol>
                     <ol className='text-md'>- {project[0]?.points[2]}</ol>
-                    <ol className='text-md'>- {project[0]?.points[3]}</ol>
-                    <ol className='text-md'>- {project[0]?.points[4]}</ol>
                 </ul>
                 <p className="text-left text-xl text-gray-700 mt-5">Tecnology Used: {project[0]?.technology}</p>
                 <div className="card-actions justify-end mt-5">
